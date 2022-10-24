@@ -21,3 +21,40 @@ Realiza un DFD que obtenga la suma de los primeros 5 numeros pares
 **Entradas=0**
 
 **Salidas=1**
+
+**Ciclo for**
+
+```
+void main(List<String> args) {
+  int s = 0;
+  for (var i = 2; i <= 10; i = i + 2) {
+    s = s + i;
+  }
+  print("resultado de la suma de numeros pares es:$s");
+}
+```
+**Ciclo while**
+
+```
+void main(List<String> args) {
+  int s = 0, c = 1;
+
+  do {
+    s = s + c * 2;
+    c = c + 1;
+  } while (c <= 5);
+  print("la suma de numeros pares es:$s");
+}
+```
+**Ciclo Do-while**
+
+```
+void main(List<String> args) {
+  int s = 0, c = 1;
+  while (c <= 5) {
+    s = s + c * 2;
+    c = c + 1;
+  }
+  print("resultado de la suma de numeros pares:$s");
+}
+```
