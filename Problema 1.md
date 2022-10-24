@@ -20,3 +20,37 @@ DFD Que cuente del 1 al 10 y sume los valores
 **Entradas= 0**
 
 **Salidas= 1**
+
+**Ciclo for**
+
+```
+void main(List<String> args) {
+  int s = 0;
+  for (var i = 1; i <= 10; i++) {
+    s += i;
+  }
+  print("La suma de los valores es: $s");
+}
+```
+**_Ciclo while:_**
+```
+void main(List<String> args) {
+  int s = 0, c = 1;
+
+  while (c <= 10) {
+    s += c;
+    c++;
+  }
+  print("El resultado de la suma de los valores es:$s");
+```
+**_Ciclo do-while:_**
+```
+void main(List<String> args) {
+  int s = 0, c = 1;
+
+  do {
+    s += c;
+    c++;
+  } while (c <= 10);
+  print("El resultado de la suma de los valores es:$s");
+```
