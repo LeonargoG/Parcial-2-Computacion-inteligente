@@ -1,6 +1,6 @@
 **EJERCICIO 3**
 
-Escribe un DFD que 
+Escribe un DFD que almacene el numero N leido del teclado en un array de 10 espacios
 
 [![3-ER-PROBLEMA-DOWHILE.jpg](https://i.postimg.cc/9MTZGJkb/3-ER-PROBLEMA-DOWHILE.jpg)](https://postimg.cc/ZBbWmF4v)
 
