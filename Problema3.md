@@ -26,3 +26,56 @@ Ejemplo del array
 **Entradas= 1**
 
 **Salidas=1**
+
+**Ciclo for**
+```
+void main() {
+  var arra = new List.filled(10, 0);
+  stdout.write("Dame diez numeros\n ");
+  stdout.write("----------\n");
+  for (var i = 0; i <= 9; i++) {
+    String? s = stdin.readLineSync();
+    if (s != null) {
+      int n = int.parse(s);
+      arra[i] = n;
+    }
+  }
+  stdout.write("aqui esta la lista, $arra");
+}
+```
+**Ciclo While**
+```
+void main() {
+  var arra = new List.filled(10, 0);
+  stdout.write("Dame diez numeros\n ");
+  stdout.write("----------\n");
+  int i = 0;
+  while (i <= 9) {
+    String? s = stdin.readLineSync();
+    if (s != null) {
+      int ner = int.parse(s);
+      arra[i] = ner;
+    }
+    i++;
+  }
+  stdout.write("Tu lista es, $arra ");
+}
+```
+**Ciclo Do-While**
+```
+void main() {
+  var arra = new List.filled(10, 0);
+  stdout.write("Dame diez numeros\n ");
+  stdout.write("----------\n");
+  int i = 0;
+  do {
+    String? s = stdin.readLineSync();
+    if (s != null) {
+      int n = int.parse(s);
+      arra[i] = n;
+      i++;
+    }
+  } while (i <= 9);
+  stdout.write("Tu lista es $arra ");
+}
+```
